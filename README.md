@@ -4,3 +4,7 @@ Publisher akan mengirimkan 5 pesan kepada broker. Terjadi 5 kali pemanggilan met
 Berarti mereka menggunakan broker AMPQ yang sama untuk melakukan komunikasi.
 
 ![ss1](images/ss1.png)
+
+![ss2](images/ss2.png)
+![ss3](images/ss3.png)
+Ketika dijalankan cargo run pada publisher, akan dikirimkan 5 event ke message broker, lalu diterima dan diproses oleh subscriber.
