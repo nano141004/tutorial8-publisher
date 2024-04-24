@@ -11,3 +11,6 @@ Ketika dijalankan cargo run pada publisher, akan dikirimkan 5 event ke message b
 
 ![ss4](images/ss4.png)
 Dapat dilihat pada RabbitMQ saat dijalankan cargo run dua kali pada publisher maka terjadi pula dua spike. Spike yang terjadi menunjukkan tiap kali publisher dijalankan.
+
+- what can improved
+menambahkan error handling, misalnya pada pemanggilan method publish_event yang hanya menggunakan _ = ...
