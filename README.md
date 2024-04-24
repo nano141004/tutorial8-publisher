@@ -8,3 +8,6 @@ Berarti mereka menggunakan broker AMPQ yang sama untuk melakukan komunikasi.
 ![ss2](images/ss2.png)
 ![ss3](images/ss3.png)
 Ketika dijalankan cargo run pada publisher, akan dikirimkan 5 event ke message broker, lalu diterima dan diproses oleh subscriber.
+
+![ss4](images/ss4.png)
+Dapat dilihat pada RabbitMQ saat dijalankan cargo run dua kali pada publisher maka terjadi pula dua spike. Spike yang terjadi menunjukkan tiap kali publisher dijalankan.
